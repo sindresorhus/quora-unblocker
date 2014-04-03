@@ -11,5 +11,4 @@ Not using Chrome? Check out the equivalent [userscript](https://github.com/sindr
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
-(c) [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)

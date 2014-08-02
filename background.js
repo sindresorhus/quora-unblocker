@@ -1,4 +1,3 @@
-/*global chrome qs */
 'use strict';
 
 chrome.webRequest.onBeforeRequest.addListener(function (details) {
@@ -6,17 +5,22 @@ chrome.webRequest.onBeforeRequest.addListener(function (details) {
 		return;
 	}
 
-	var url = details.url.split('?')[0];
-	var query = qs.parse(details.url);
+	var parts = details.url.split('?');
+	var query = queryString.parse(parts[1]);
 
 	query.share = 1;
 
 	return {
-		redirectUrl: url + '?' + qs.stringify(query)
+		redirectUrl: parts[0] + '?' + queryString.stringify(query)
 	};
 }, {
-	urls: ['*://quora.com/*', '*://www.quora.com/*'],
-	types: ['main_frame']
+	urls: [
+		'*://quora.com/*',
+		'*://www.quora.com/*'
+	],
+	types: [
+		'main_frame'
+	]
 }, [
 	'blocking'
 ]);

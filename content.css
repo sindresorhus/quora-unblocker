@@ -1,4 +1,11 @@
+.LoggedOutSiteHeader,
+.SignupColumn,
 .signup_bubble,
-.signup_column {
+.signup_column,
+.logged_out .follow_button,
+.logged_out .ActionBar,
+.logged_out .AskToAnswerSectionToggle,
+.logged_out .answer_voters,
+.logged_out .Footer {
 	display: none !important;
 }

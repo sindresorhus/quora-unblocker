@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "query-string": "^0.4.1"
+    "query-string": "^1.0.0"
   }
 }

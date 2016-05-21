@@ -1,6 +1,6 @@
 # <img src="icon.png" width="30"> Quora Unblocker
 
-> Chrome/Opera extension - Removes the login requirement and any nagging about it
+> Chrome extension - Removes the login requirement and any nagging about it
 
 ![](screenshot.png)
 
@@ -9,14 +9,14 @@ Quora has a quite obscure way to view content [without logging in](http://blog.q
 
 ## Install
 
-* [Chrome extension](https://chrome.google.com/webstore/detail/quora-unblocker/pcjnlebeogfamlbeloiccdidgmaeojhe)
-* [Opera add-on](https://addons.opera.com/en/extensions/details/quora-unblocker/)
+Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/quora-unblocker/pcjnlebeogfamlbeloiccdidgmaeojhe) or [manually](http://superuser.com/a/247654/6877).
+
 
 ## Related
 
-Not using Chrome/Opera? Check out the equivalent [userscript](https://github.com/sindresorhus/quora-unblocker-userscript).
+Not using Chrome? Check out the equivalent [userscript](https://github.com/sindresorhus/quora-unblocker-userscript).
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

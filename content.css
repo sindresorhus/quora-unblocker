@@ -6,6 +6,14 @@
 .logged_out .AskToAnswerSectionToggle,
 .logged_out .answer_voters,
 .logged_out .Footer,
-.inline_answer_logged_out {
+.inline_answer_logged_out,
+.LoggedOutAskQuestionButton,
+.BelowQuestionAddPrompt,
+.LoggedOutFooter,
+.LoggedOutSiteHeader .header_logo {
 	display: none !important;
+}
+
+.LoggedOutSiteHeader .ask_bar {
+	padding-left: 0 !important;
 }

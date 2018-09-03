@@ -16,7 +16,7 @@
 	],
 	"background": {
 		"scripts": [
-			"node_modules/query-string/query-string.js",
+			"query-string.js",
 			"background.js"
 		]
 	},

@@ -1,6 +1,6 @@
 {
 	"name": "Quora Unblocker",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Removes the login requirement and any nagging about it",
 	"homepage_url": "https://github.com/sindresorhus/quora-unblocker",
 	"manifest_version": 2,

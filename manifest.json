@@ -1,24 +1,22 @@
 {
 	"name": "Quora Unblocker",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "Removes the login requirement and any nagging about it",
 	"homepage_url": "https://github.com/sindresorhus/quora-unblocker",
-	"manifest_version": 2,
-	"minimum_chrome_version": "65",
+	"manifest_version": 3,
 	"icons": {
 		"128": "icon.png"
 	},
 	"permissions": [
-		"webRequest",
-		"webRequestBlocking",
+		"webNavigation",
+		"tabs"
+	],
+	"host_permissions": [
 		"*://quora.com/*",
 		"*://www.quora.com/*"
 	],
 	"background": {
-		"scripts": [
-			"query-string.js",
-			"background.js"
-		]
+		"service_worker": "background.js"
 	},
 	"content_scripts": [{
 		"run_at": "document_end",
